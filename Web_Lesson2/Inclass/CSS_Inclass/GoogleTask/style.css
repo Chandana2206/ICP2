@@ -112,6 +112,17 @@ input:focus {
   left: 388px;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+.wrapper > div img {
+  max-width: 100%;
+  max-height: 100%;
+}
 .buttons {
   width: 25vw;
   display: flex;
